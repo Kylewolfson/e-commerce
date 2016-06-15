@@ -1,0 +1,12 @@
+{ "products": [{
+    "title": "whirligig",
+    "image": "http://store.workshopsupply.com/catalogue/images/5f1822.jpg",
+    "description": "This whirligig is one of a kind mallard duck. You can put it on your front lawn and watch it whiiiiiiii",
+    "cost": "$87.00"
+  }, {
+    "title": "toad",
+    "image": "http://voices.nationalgeographic.com/files/2013/09/Bat-Toad-NatGeo.jpg",
+    "description": "This toad is vicious. It will solve your bat problem. Anyone want it?",
+    "cost": "$0.97"
+  }]
+}

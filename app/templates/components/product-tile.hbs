@@ -1,0 +1,6 @@
+<h1>{{model.title}}</h1>
+<img src="{{model.image}}" alt="Image for {{model.title}}"/><br><br>
+{{model.description}}<br><br>
+{{model.cost}}
+
+<button {{action 'addToCart' model}}>Add to Cart</button>

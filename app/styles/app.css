@@ -1,0 +1,15 @@
+.display-tile {
+  height: 300px;
+  width: 300px;
+  float: left;
+}
+
+.display-tile img {
+  height: 250px;
+  width: 250px;
+}
+
+.display-image img {
+  max-height: 500px;
+  width: auto;
+}
