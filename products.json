@@ -8,5 +8,11 @@
     "image": "http://voices.nationalgeographic.com/files/2013/09/Bat-Toad-NatGeo.jpg",
     "description": "This toad is vicious. It will solve your bat problem. Anyone want it?",
     "cost": "$0.97"
+  }],
+  "comments": [{
+    "name": "Cynthia",
+    "body": "Angel Wings.",
+    "rating": "5",
+    "product": "whirligig"
   }]
 }

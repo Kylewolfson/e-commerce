@@ -3,4 +3,12 @@
 {{model.description}}<br><br>
 {{model.cost}}
 
+<ul>
+{{#each model.comments as |comment|}}
+  <li>{{comment.name}} {{comment.date}} {{comment.rating}}<br>{{comment.body}}</li>
+{{/each}}
+</ul>
+
+{{new-comment product=model saveComment="saveComment"}}
+
 <button {{action 'addToCart' model}}>Add to Cart</button>

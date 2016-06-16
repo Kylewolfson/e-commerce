@@ -3,9 +3,9 @@ import DS from 'ember-data';
 // import { belongsTo, hasMany } from 'ember-data/relationships';
 
 export default DS.Model.extend({
-  image: DS.attr(),
-  title: DS.attr(),
-  description: DS.attr(),
-  cost: DS.attr(),
-  comments: DS.hasMany('comment', { async: true})
+  name: DS.attr(),
+  date: DS.attr(),
+  body: DS.attr(),
+  rating: DS.attr(),
+  product: DS.belongsTo('product', { async: true})
 });
