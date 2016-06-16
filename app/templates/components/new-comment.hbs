@@ -14,7 +14,13 @@
 
         <div class="form-group">
           <label for="rating">Rating: 1-5</label>
-          {{input value=rating id="rating"}}
+          {{#x-select value=rating}}
+            {{#x-option value=1}}1{{/x-option}}
+            {{#x-option value=2}}2{{/x-option}}
+            {{#x-option value=3}}3{{/x-option}}
+            {{#x-option value=4}}4{{/x-option}}
+            {{#x-option value=5}}5{{/x-option}}
+          {{/x-select}}
         </div>
 
         <button {{action 'saveComment'}}>Save</button>

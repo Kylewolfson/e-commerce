@@ -6,6 +6,9 @@ export default Ember.Component.extend({
   sortBy: ['date:desc'],
   sortedComments: Ember.computed.sort('model.comments', 'sortBy'),
 
+  sortBy: ['rating:desc'],
+  sortedComments: Ember.computed.sort('model.comments', 'sortBy'),
+
   actions: {
     addToCart(product) {
       this.get('shoppingCart').add(product);

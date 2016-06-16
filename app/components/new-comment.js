@@ -13,6 +13,13 @@ export default Ember.Component.extend({
       this.set('addNewComment', false);
       this.sendAction('saveComment', params);
     },
+    // selectRating: function(selection, comment) {
+    //   if (selection) {
+    //     this.set('selection', selection)
+    //   } else {
+    //     this.set('selection', component.get('default'))
+    //   }
+    // }
     commentFormShow() {
       this.set('addNewComment', true);
     }
