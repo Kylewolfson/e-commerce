@@ -7,7 +7,7 @@ export default Ember.Component.extend({
         name: this.get('name'),
         body: this.get('body'),
         rating: this.get('rating'),
-        date: Date.now,
+        date: Date.now(),
         product: this.get('product')
       };
       this.set('addNewComment', false);

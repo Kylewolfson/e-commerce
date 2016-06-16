@@ -4,8 +4,8 @@
 {{model.cost}}
 
 <ul>
-{{#each model.comments as |comment|}}
-  <li>{{comment.name}} {{comment.date}} {{comment.rating}}<br>{{comment.body}}</li>
+{{#each sortedComments as |comment|}}
+  <li>{{comment.name}} {{moment-format comment.date 'MMMM Do YYYY, h:mm a'}} {{comment.rating}}<br>{{comment.body}}</li>
 {{/each}}
 </ul>
 
